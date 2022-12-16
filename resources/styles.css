@@ -123,6 +123,7 @@ body {
     background-color: aliceblue;
     border-radius: 50%;
 }
+
 .item img {
     background-color: rgb(117, 149, 255);
     border-radius: 50%;
@@ -212,7 +213,8 @@ body {
     padding: 12px 20px;
     border-radius: 4px;
 }
-.PdfContainer{
+
+.PdfContainer {
     height: 100%;
     width: 100%;
     display: flex;
@@ -221,9 +223,18 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.PdfContainer .loading{
+
+.PdfContainer .loading {
     position: absolute;
     margin: 0 auto;
     top: 0;
     display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    opacity: 0;
 }
